@@ -207,6 +207,7 @@ class InfiniteList extends StatelessWidget {
     return CustomScrollView(
       scrollDirection: scrollDirection,
       reverse: reverse,
+      shrinkWrap: true,
       controller: scrollController,
       physics: physics,
       cacheExtent: cacheExtent,
